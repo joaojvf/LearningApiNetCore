@@ -1,0 +1,8 @@
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp3.1\EntityFramework.Infra.Data.deps.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp3.1\EntityFramework.Infra.Data.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp3.1\EntityFramework.Infra.Data.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp3.1\EntityFramework.Infra.Data.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp3.1\EntityFramework.Infra.Data.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp3.1\EntityFramework.Infra.Data.runtimeconfig.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp3.1\EntityFramework.Infra.Data.runtimeconfig.dev.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp3.1\EntityFramework.Infra.Data.genruntimeconfig.cache
