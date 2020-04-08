@@ -1,0 +1,12 @@
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp2.1\EntityFramework.Domain.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp2.1\EntityFramework.Infra.Data.deps.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp2.1\EntityFramework.Infra.Data.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp2.1\EntityFramework.Domain.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.csproj.CopyComplete
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\bin\Debug\netcoreapp2.1\EntityFramework.Infra.Data.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.Data\obj\Debug\netcoreapp2.1\EntityFramework.Infra.Data.pdb

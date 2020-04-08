@@ -1,0 +1,9 @@
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\bin\Debug\netcoreapp2.1\EntityFramework.Domain.deps.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\bin\Debug\netcoreapp2.1\EntityFramework.Domain.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\bin\Debug\netcoreapp2.1\EntityFramework.Domain.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.pdb

@@ -1,0 +1,15 @@
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Data3.deps.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Data3.runtimeconfig.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Data3.runtimeconfig.dev.json
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Data3.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Data3.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Domain.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\bin\Debug\netcoreapp2.1\EntityFramework.Domain.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.csproj.CopyComplete
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.dll
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.genruntimeconfig.cache
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data3\obj\Debug\netcoreapp2.1\EntityFramework.Data3.csproj.CoreCompileInputs.cache
