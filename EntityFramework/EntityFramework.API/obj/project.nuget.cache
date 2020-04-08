@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PArpESFA7YRyyq9lFxBxibq6oXkBKkk/Nx3nklDwftdZ5ucz2++slB80gusmBkXc0DsvsamdW5zfGywtJVtKdQ==",
+  "dgSpecHash": "aLhKE5aUB5ZyFsIya2h8I6Gn+SJWhHIekqmrB5dMJNqkpK17WK1LHqPHd2BngMvljymxdhw9Yswt8CT/5B0RWg==",
   "success": true,
   "projectFilePath": "C:\\repo\\LearningApiNetCore\\EntityFramework\\EntityFramework.API\\EntityFramework.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",

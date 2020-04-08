@@ -10,7 +10,10 @@ namespace EntityFramework.Domain.Entities
         public int Id { get; private set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
         public string UrlPhoto { get; set; }
         public SexEnum Sex { get; set; }
+        public DateTime DateBirth { get; set; }
     }
 }

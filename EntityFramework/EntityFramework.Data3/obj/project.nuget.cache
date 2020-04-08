@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xJ+Gxu8GJMdijJALVSyK+O6JNDaLmVhweyz09DsRc8F2ppDFXREVDjV0ngJCFNubStGzgYmK2Ulo/ExNn8Pwdw==",
+  "dgSpecHash": "SsCRZMso+c3a5FeaPm53CZSGXE4o4MWlzr8dyotU/K2eDbQddjQfaVpyoaKUYmXoENAB6SI52NorVzCOtyZyeA==",
   "success": true,
   "projectFilePath": "C:\\repo\\LearningApiNetCore\\EntityFramework\\EntityFramework.Data3\\EntityFramework.Data3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.1.2\\microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.4\\microsoft.entityframeworkcore.2.1.4.nupkg.sha512",

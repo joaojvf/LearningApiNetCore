@@ -1,10 +1,24 @@
-﻿using System;
+﻿using EntityFramework.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EntityFramework.Data3.Config
 {
-    //public class UserConfiguration : EntityTypeConfiguration
-    //{
-    //}
+    public class UserConfiguration : IEntityTypeConfiguration<User>
+    {
+        public void Configure(EntityTypeBuilder<User> builder)
+        {
+            builder.HasKey(u => u.Id);
+            builder.Property(u => u.Name).HasMaxLength(400).IsRequired();
+            builder.Property(u => u.LastName).HasMaxLength(400).IsRequired();
+            builder.Property(u => u.Email).HasMaxLength(400).IsRequired();
+            builder.Property(u => u.Password).HasMaxLength(400).IsRequired();
+            builder.Property(u => u.Sex).IsRequired();
+            builder.Property(u => u.UrlPhoto).HasMaxLength(400).IsRequired();
+            builder.Property(u => u.DateBirth).IsRequired();
+        }
+    }
 }

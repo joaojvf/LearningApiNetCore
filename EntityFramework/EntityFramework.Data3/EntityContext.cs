@@ -1,4 +1,5 @@
-﻿using EntityFramework.Domain.Entities;
+﻿using EntityFramework.Data3.Config;
+using EntityFramework.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework.Infra.Data3
@@ -6,6 +7,8 @@ namespace EntityFramework.Infra.Data3
     public class EntityContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Post> Posts { get; set; }
+        public DbSet<RelationshipStatus> RelationshipStatus { get; set; }
 
         public EntityContext(DbContextOptions options) : base(options)
         {
@@ -14,12 +17,7 @@ namespace EntityFramework.Infra.Data3
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>(entity => {
-                entity.HasKey(u => u.Id);
-                entity.Property(u => u.Name)
-                    .IsRequired()
-                    .HasMaxLength(400);
-            });
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

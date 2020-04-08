@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v2.1": {
       "EntityFramework.Data3/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.4.0",
           "EntityFramework.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.Proxies": "2.1.4",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.4",
@@ -38,7 +37,6 @@
           }
         }
       },
-      "EntityFramework/6.4.0": {},
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.EntityFrameworkCore/2.1.4": {
@@ -664,13 +662,6 @@
       "sha512": "sha512-XSNA0Gc1Zu33L+8+/3Tqt+aFu8QWS8UenVHZ7RenIP5wJfhoLrA4PnNscpxReeo5aBq8PDoGnV8rNaOzIOUo/w==",
       "path": "castle.core/4.2.1",
       "hashPath": "castle.core.4.2.1.nupkg.sha512"
-    },
-    "EntityFramework/6.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7jDmcQ3jaN5G7ZJC7Ecq161zQBs/5LqRzBdZ/I4XfmSvOwteGgNjOi30kthFador4Qjo3qUU6iOB1H04GIXrpg==",
-      "path": "entityframework/6.4.0",
-      "hashPath": "entityframework.6.4.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
