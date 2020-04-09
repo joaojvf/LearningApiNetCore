@@ -3,14 +3,16 @@ using System;
 using EntityFramework.Infra.Data3;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityFramework.Data3.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    partial class EntityContextModelSnapshot : ModelSnapshot
+    [Migration("20200409181653_CriandoRelacionamentoGroupUser")]
+    partial class CriandoRelacionamentoGroupUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,7 +38,7 @@ namespace EntityFramework.Data3.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Groups");
+                    b.ToTable("Group");
                 });
 
             modelBuilder.Entity("EntityFramework.Domain.Entities.Identification", b =>
@@ -142,7 +144,7 @@ namespace EntityFramework.Data3.Migrations
 
                     b.HasIndex("GroupId");
 
-                    b.ToTable("UserGroups");
+                    b.ToTable("UserGroup");
                 });
 
             modelBuilder.Entity("EntityFramework.Domain.Entities.Identification", b =>

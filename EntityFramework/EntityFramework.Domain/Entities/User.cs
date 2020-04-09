@@ -17,5 +17,6 @@ namespace EntityFramework.Domain.Entities
         public DateTime DateBirth { get; set; }
         public virtual Identification Identification { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
+        public virtual ICollection<UserGroup> UserGroups { get; set; }
     }
 }
