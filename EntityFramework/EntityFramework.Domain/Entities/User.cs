@@ -16,7 +16,24 @@ namespace EntityFramework.Domain.Entities
         public SexEnum Sex { get; set; }
         public DateTime DateBirth { get; set; }
         public virtual Identification Identification { get; set; }
+        public virtual RelationshipStatus RelationshipStatus { get; set; }
+        public virtual LookingFor LookingFor { get; set; }
+
         public virtual ICollection<Post> Posts { get; set; }
         public virtual ICollection<UserGroup> UserGroups { get; set; }
+        public virtual ICollection<WorkPlace> WorkPlaces{ get; set; }
+        public virtual ICollection<EducationalInstitution> EducationalInstitutions { get; set; }
+        public virtual ICollection<Friend> Friends{ get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
+
+        public User()
+        {
+            Posts = new List<Post>();
+            UserGroups = new List<UserGroup>();
+            WorkPlaces = new List<WorkPlace>();
+            EducationalInstitutions = new List<EducationalInstitution>();
+            Friends = new List<Friend>();
+            Comments = new List<Comment>();
+        }
     }
 }

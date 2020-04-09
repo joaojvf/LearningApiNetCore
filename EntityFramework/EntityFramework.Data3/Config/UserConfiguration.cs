@@ -22,7 +22,15 @@ namespace EntityFramework.Data3.Config
             builder.HasOne(u => u.Identification)
                    .WithOne(i => i.User)
                    .HasForeignKey<Identification>(i => i.UserId);
+
             builder.HasMany(u => u.Posts).WithOne(p => p.User);
+            builder.HasMany(u => u.Comments).WithOne(c => c.User);
+            builder.HasMany(u => u.Friends).WithOne(c => c.User);
+            builder.HasMany(u => u.Posts).WithOne(c => c.User);
+            builder.HasMany(u => u.UserGroups).WithOne(c => c.User);
+
+            builder.HasOne(u => u.RelationshipStatus);
+            builder.HasOne(u => u.LookingFor);
         }
     }
 }
