@@ -15,5 +15,7 @@ namespace EntityFramework.Domain.Entities
         public string UrlPhoto { get; set; }
         public SexEnum Sex { get; set; }
         public DateTime DateBirth { get; set; }
+        public virtual Identification Identification { get; set; }
+        public virtual ICollection<Post> Posts { get; set; }
     }
 }

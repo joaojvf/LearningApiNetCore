@@ -3,14 +3,16 @@ using System;
 using EntityFramework.Infra.Data3;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityFramework.Data3.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    partial class EntityContextModelSnapshot : ModelSnapshot
+    [Migration("20200409132004_AddIdentification")]
+    partial class AddIdentification
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,11 +47,7 @@ namespace EntityFramework.Data3.Migrations
 
                     b.Property<string>("Text");
 
-                    b.Property<int>("UserId");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -105,14 +103,6 @@ namespace EntityFramework.Data3.Migrations
                     b.HasOne("EntityFramework.Domain.Entities.User", "User")
                         .WithOne("Identification")
                         .HasForeignKey("EntityFramework.Domain.Entities.Identification", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("EntityFramework.Domain.Entities.Post", b =>
-                {
-                    b.HasOne("EntityFramework.Domain.Entities.User", "User")
-                        .WithMany("Posts")
-                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618

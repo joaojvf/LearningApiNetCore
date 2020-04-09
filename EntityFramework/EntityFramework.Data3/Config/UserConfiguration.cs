@@ -19,6 +19,10 @@ namespace EntityFramework.Data3.Config
             builder.Property(u => u.Sex).IsRequired();
             builder.Property(u => u.UrlPhoto).HasMaxLength(400).IsRequired();
             builder.Property(u => u.DateBirth).IsRequired();
+            builder.HasOne(u => u.Identification)
+                   .WithOne(i => i.User)
+                   .HasForeignKey<Identification>(i => i.UserId);
+            builder.HasMany(u => u.Posts).WithOne(p => p.User);
         }
     }
 }
