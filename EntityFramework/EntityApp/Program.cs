@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 
 namespace EntityApp
 {
@@ -13,15 +14,31 @@ namespace EntityApp
     {
         static void Main(string[] args)
         {
-            User user = new User()
+            User CreateUser(string name)
             {
-                Name = "Usuario2",
-                LastName = "Sobrenome",
-                Email = "teste@teste.com",
-                DateBirth = DateTime.Now,
-                Sex = SexEnum.Male,
-                Password = "1234",
-                UrlPhoto= "C\\:teste"
+                return new User()
+                {
+                    Name = name,
+                    LastName = "Sobrenome",
+                    Email = "teste@teste.com",
+                    DateBirth = DateTime.Now,
+                    Sex = SexEnum.Male,
+                    Password = "1234",
+                    UrlPhoto = "C\\:teste"
+                };
+            }
+
+            User user3 = CreateUser("Usuario3");
+            User user4 = CreateUser("Usuario4");
+            User user5 = CreateUser("Usuario5");
+            User user6 = CreateUser("Usuario6");
+
+            List<User> users = new List<User>()
+            {
+                user3,
+                user4,
+                user5,
+                user6
             };
 
 
@@ -35,7 +52,8 @@ namespace EntityApp
                 using (var dbContext = new EntityContext(optionsBuilder.Options))
                 {
                     dbContext.GetService<ILoggerFactory>().AddProvider(new Logger());
-                    dbContext.Users.Add(user);
+
+                    dbContext.Users.AddRange(users);
                     dbContext.SaveChanges();
                 }
             }
@@ -43,7 +61,7 @@ namespace EntityApp
             {
                 Console.WriteLine(e);
             }
-            
+
         }
     }
 }
