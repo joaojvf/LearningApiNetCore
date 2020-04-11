@@ -3,6 +3,7 @@ using EntityFramework.Domain.Enums;
 using EntityFramework.Infra.CrossCutting.Logging;
 using EntityFramework.Infra.Data3;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Logging;
 using System;
@@ -57,9 +58,10 @@ namespace EntityApp
 
                     //dbContext.Users.AddRange(users);
 
-                    var res = dbContext.Users.Where(u => u.Name == "Usuario1");
-
-                    //dbContext.SaveChanges();
+                    var userJoao = CreateUser("userJoao");
+                    Console.WriteLine("Check using ChangeTracker of user0");
+                    dbContext.Users.Add(userJoao);
+                    dbContext.SaveChanges();
 
                 }
             }
@@ -70,5 +72,17 @@ namespace EntityApp
 
         }
 
+        public static void WatchChangeTracker (ChangeTracker changeTracker)
+        {
+            foreach (var entry in changeTracker.Entries())
+            {
+                Console.WriteLine("Instance name: " + entry.Entity.GetType().FullName);
+                Console.WriteLine("Instance State: " + entry.State);
+                Console.WriteLine("-----------------------");
+            }
+            Console.WriteLine("");
+        }
+
     }
 }
+
