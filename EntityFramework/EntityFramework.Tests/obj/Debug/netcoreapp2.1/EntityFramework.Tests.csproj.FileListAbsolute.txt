@@ -6,3 +6,4 @@ C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netco
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.AssemblyInfo.cs
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.dll
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.pdb
+C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.csprojAssemblyReference.cache

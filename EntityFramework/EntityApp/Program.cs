@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace EntityApp
 {
@@ -44,8 +45,9 @@ namespace EntityApp
 
             var optionsBuilder = new DbContextOptionsBuilder<EntityContext>();
             optionsBuilder.UseLazyLoadingProxies();
-            optionsBuilder.UseMySql("Server=localhost;userid=root;password=123456;database=EntityDB",
-                m => m.MigrationsAssembly("EntityFramework.Data3"));
+            optionsBuilder.UseMySql("Server=localhost;userid=newuser2;password=@1234567;database=EntityDB",
+                m => m.MigrationsAssembly("EntityFramework.Data3")
+                .MaxBatchSize(100));
 
             try
             {
@@ -53,8 +55,12 @@ namespace EntityApp
                 {
                     dbContext.GetService<ILoggerFactory>().AddProvider(new Logger());
 
-                    dbContext.Users.AddRange(users);
-                    dbContext.SaveChanges();
+                    //dbContext.Users.AddRange(users);
+
+                    var res = dbContext.Users.Where(u => u.Name == "Usuario1");
+
+                    //dbContext.SaveChanges();
+
                 }
             }
             catch (Exception e)
@@ -63,5 +69,6 @@ namespace EntityApp
             }
 
         }
+
     }
 }

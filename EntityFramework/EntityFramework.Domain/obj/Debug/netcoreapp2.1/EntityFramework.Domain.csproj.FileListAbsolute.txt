@@ -6,4 +6,3 @@ C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netc
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.AssemblyInfo.cs
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.dll
 C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Domain\obj\Debug\netcoreapp2.1\EntityFramework.Domain.csprojAssemblyReference.cache
