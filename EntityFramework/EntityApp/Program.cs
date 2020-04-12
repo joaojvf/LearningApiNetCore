@@ -58,9 +58,15 @@ namespace EntityApp
 
                     //dbContext.Users.AddRange(users);
 
-                    var userJoao = CreateUser("userJoao");
+                    var userCamila = CreateUser("userCamila");
+                    userCamila.EducationalInstitutions.Add(new EducationalInstitution()
+                    {
+                        Name = "Unopar",
+                        GradYear = new DateTime(2016, 12, 31)
+                    });
+
                     Console.WriteLine("Check using ChangeTracker of user0");
-                    dbContext.Users.Add(userJoao);
+                    dbContext.Users.Add(userCamila);
                     dbContext.SaveChanges();
 
                 }
