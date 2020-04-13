@@ -1,9 +1,0 @@
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\bin\Debug\netcoreapp2.1\EntityFramework.Tests.deps.json
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\bin\Debug\netcoreapp2.1\EntityFramework.Tests.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\bin\Debug\netcoreapp2.1\EntityFramework.Tests.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.csproj.CoreCompileInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.AssemblyInfoInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.AssemblyInfo.cs
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Tests\obj\Debug\netcoreapp2.1\EntityFramework.Tests.csprojAssemblyReference.cache

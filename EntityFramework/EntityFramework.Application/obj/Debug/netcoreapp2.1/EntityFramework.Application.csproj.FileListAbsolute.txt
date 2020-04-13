@@ -1,9 +1,0 @@
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\bin\Debug\netcoreapp2.1\EntityFramework.Application.deps.json
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\bin\Debug\netcoreapp2.1\EntityFramework.Application.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\bin\Debug\netcoreapp2.1\EntityFramework.Application.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.csproj.CoreCompileInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.AssemblyInfoInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.AssemblyInfo.cs
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Application\obj\Debug\netcoreapp2.1\EntityFramework.Application.csprojAssemblyReference.cache
