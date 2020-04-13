@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Logging;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,13 +57,21 @@ namespace EntityApp
                 {
                     dbContext.GetService<ILoggerFactory>().AddProvider(new Logger());
 
-                    string sqlCommand = "select name, lastname from users";
+
+
+
                     var cnn = dbContext.Database.GetDbConnection();
 
-                    List<UserDTO> listUsers = new List<UserDTO>();
+                    List<UserEducationalInstuteDTO> listUsersEI = new List<UserEducationalInstuteDTO>();
                     using (var command = cnn.CreateCommand())
                     {
                         cnn.Open();
+
+                        string sqlCommand = "call spObterUsuariosPorInstituicoesEnsinoNovo()";
+                        MySqlParameter param = new MySqlParameter("@userId", MySqlDbType.Int32);
+                        param.Value = 17;
+
+                        //command.Parameters.Add(param);
                         command.CommandText = sqlCommand;
 
                         using (var dataReader = command.ExecuteReader())
@@ -71,15 +80,18 @@ namespace EntityApp
                             {
                                 while (dataReader.Read())
                                 {
-                                    UserDTO userDTO = new UserDTO();
-                                    userDTO.Name = dataReader["name"].ToString();
-                                    userDTO.Name = dataReader["lastname"].ToString();
-                                    listUsers.Add(userDTO);
+                                    UserEducationalInstuteDTO userEIDTO = new UserEducationalInstuteDTO();
+                                    userEIDTO.NameUser = dataReader["NameUser"].ToString();
+                                    userEIDTO.LastNameUser = dataReader["LastNameUser"].ToString();
+                                    userEIDTO.NameEducationalInstute = dataReader["NameEducationalInstute"].ToString();
+
+
+                                    listUsersEI.Add(userEIDTO);
                                 }
                             }
                         }
                     }
-                    
+
                     dbContext.SaveChanges();
 
                 }
@@ -91,7 +103,7 @@ namespace EntityApp
 
         }
 
-        public static void WatchChangeTracker (ChangeTracker changeTracker)
+        public static void WatchChangeTracker(ChangeTracker changeTracker)
         {
             foreach (var entry in changeTracker.Entries())
             {
