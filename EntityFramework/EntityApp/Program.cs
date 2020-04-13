@@ -56,31 +56,30 @@ namespace EntityApp
                 {
                     dbContext.GetService<ILoggerFactory>().AddProvider(new Logger());
 
-                    //dbContext.Users.AddRange(users);
+                    string sqlCommand = "select name, lastname from users";
+                    var cnn = dbContext.Database.GetDbConnection();
 
-                    //var userCamila = CreateUser("userCamila");
-                    //userCamila.EducationalInstitutions.Add(new EducationalInstitution()
-                    //{
-                    //    Name = "Unopar",
-                    //    GradYear = new DateTime(2016, 12, 31)
-                    //});
-                    //userCamila.EducationalInstitutions.Add(new EducationalInstitution()
-                    //{
-                    //    Name = "Faculdade X",
-                    //    GradYear = new DateTime(2016, 12, 31)
-                    //});
-                    //userCamila.EducationalInstitutions.Add(new EducationalInstitution()
-                    //{
-                    //    Name = "FaculdadeY",
-                    //    GradYear = new DateTime(2016, 12, 31)
-                    //});
+                    List<UserDTO> listUsers = new List<UserDTO>();
+                    using (var command = cnn.CreateCommand())
+                    {
+                        cnn.Open();
+                        command.CommandText = sqlCommand;
 
-                    var userCamila = dbContext.Users.FirstOrDefault(u => u.Name.Contains("Camila"));
-                    var institutes = userCamila.EducationalInstitutions.FirstOrDefault(e => e.Name.Contains("Unopar"));
-
-                    userCamila.EducationalInstitutions.Remove(institutes);
-                    Console.WriteLine("Check using ChangeTracker of user0");
-                    //dbContext.Users.Add(userCamila);
+                        using (var dataReader = command.ExecuteReader())
+                        {
+                            if (dataReader.HasRows)
+                            {
+                                while (dataReader.Read())
+                                {
+                                    UserDTO userDTO = new UserDTO();
+                                    userDTO.Name = dataReader["name"].ToString();
+                                    userDTO.Name = dataReader["lastname"].ToString();
+                                    listUsers.Add(userDTO);
+                                }
+                            }
+                        }
+                    }
+                    
                     dbContext.SaveChanges();
 
                 }
