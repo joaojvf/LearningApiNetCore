@@ -19,9 +19,9 @@ namespace Modulo1.Controllers
         };
 
         [HttpGet]
-        public IEnumerable<Product> Get()
+        public IActionResult Get()
         {
-            return _products;
+            return Ok(_products);
         }
 
         [HttpDelete("{id}")]
@@ -31,9 +31,10 @@ namespace Modulo1.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody]Product product)
+        public IActionResult Post([FromBody]Product product)
         {
             _products.Add(product);
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         [HttpPut("{id}")]

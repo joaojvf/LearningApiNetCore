@@ -1,0 +1,4 @@
+C:\repo\LearningApiNetCore\Modulo1\Modulo1\obj\Debug\netcoreapp2.1\Modulo1.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\Modulo1\Modulo1\obj\Debug\netcoreapp2.1\Modulo1.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\Modulo1\Modulo1\obj\Debug\netcoreapp2.1\Modulo1.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\Modulo1\Modulo1\obj\Debug\netcoreapp2.1\Modulo1.AssemblyInfo.cs
