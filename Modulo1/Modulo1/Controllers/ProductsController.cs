@@ -23,6 +23,11 @@ namespace Modulo1.Controllers
         {
             return Ok(_products);
         }
+        [HttpGet("LoadWelcomeMessage")]
+        public IActionResult GetWelcomeMessage()
+        {
+            return Ok("Welcome to our store...");
+        }
 
         [HttpDelete("{id}")]
         public void Delete(int id)
