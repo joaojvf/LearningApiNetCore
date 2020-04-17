@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JKrdZe8QXmWnUDzhG/uM1P1sQ49YKKj4zK2HzVbMKL+VTSzzLmrOSSqP/lCe3GtKfu/yGWNwAN75bTB2ZRn/2A==",
+  "dgSpecHash": "hLl00A+9gvx0AFRLVV9cuKICQNntPvBlAdetoHLZoql+BIW8X6mLPdoQf52y2+HrOH7krQn/HFQcQBI3ZiMiWA==",
   "success": true,
   "projectFilePath": "C:\\repo\\LearningApiNetCore\\Modulo1\\Modulo1\\Modulo1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
