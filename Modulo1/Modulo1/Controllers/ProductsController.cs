@@ -21,9 +21,23 @@ namespace Modulo1.Controllers
         }
         // GET: api/Products
         [HttpGet]
-        public IEnumerable<Product> Get()
+        public IEnumerable<Product> Get(string sortPrice)
         {
-            return productDbContext.Products;
+            IQueryable<Product> products;
+
+            switch (sortPrice)
+            {
+                case "desc":
+                    products = productDbContext.Products.OrderByDescending(p => p.ProductName);
+                    break;
+                case "asc":
+                    products = productDbContext.Products.OrderBy(p => p.ProductName);
+                    break;
+                default:
+                    products = productDbContext.Products;
+                    break;
+            }
+            return products;
         }
 
         // GET: api/Products/5
