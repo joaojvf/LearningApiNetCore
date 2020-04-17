@@ -9,7 +9,7 @@ using ModuleVersioning.Models;
 namespace ModuleVersioning.Controllers
 {
     [ApiVersion("1.0")]
-    [Route("api/movies")]
+    [Route("api/v{version: apiVersion}movies")]
     [ApiController]
     public class MoviesV1Controller : ControllerBase
     {

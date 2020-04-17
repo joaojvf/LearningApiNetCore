@@ -6,133 +6,77 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Modulo1.Data;
 using Modulo1.Models;
+using Modulo1.Services;
 
 namespace Modulo1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class ProductsController : ControllerBase
     {
-        private ProductDbContext productDbContext;
-
-        public ProductsController(ProductDbContext _productDbContext)
+        private IProduct productRepository;
+        public ProductsController(IProduct _productRepository)
         {
-            productDbContext = _productDbContext;
+            productRepository = _productRepository;
         }
         // GET: api/Products
         [HttpGet]
-        public IEnumerable<Product> Get(string sortPrice)
+        public IEnumerable<Product> Get()
         {
-            IQueryable<Product> products;
-
-            switch (sortPrice)
-            {
-                case "desc":
-                    products = productDbContext.Products.OrderByDescending(p => p.ProductName);
-                    break;
-                case "asc":
-                    products = productDbContext.Products.OrderBy(p => p.ProductName);
-                    break;
-                default:
-                    products = productDbContext.Products;
-                    break;
-            }
-            return products;
+            return productRepository.GetProducts();
         }
-
-        [HttpGet("GetPag")]
-        public IEnumerable<Product> GetPage(int pageNumber, int pageSize)
-        {
-            IEnumerable<Product> products = productDbContext.Products.OrderBy(p => p.ProductId);
-
-            var items = products.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
-
-            return items;
-        }
-
-        [HttpGet("GetSearch")]
-        public IEnumerable<Product> GetSearch(string nameProduct)
-        {
-            IEnumerable<Product> products = productDbContext.Products.Where(p => p.ProductName.StartsWith(nameProduct));
-
-            return products;
-        }
-
         // GET: api/Products/5
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
-            Product product = productDbContext.Products.SingleOrDefault(p => p.ProductId == id);
-
+            var product = productRepository.GetProduct(id);
             if (product == null)
             {
                 return NotFound("No Record Found...");
             }
-
             return Ok(product);
         }
-
         // POST: api/Products
         [HttpPost]
-        public IActionResult Post([FromBody] Product product)
+        public IActionResult Post([FromBody]Product product)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
-            productDbContext.Products.Add(product);
-            productDbContext.SaveChanges(true);
-
+            productRepository.AddProduct(product);
             return StatusCode(StatusCodes.Status201Created);
         }
-
         // PUT: api/Products/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Product product)
+        public IActionResult Put(int id, [FromBody]Product product)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
             if (id != product.ProductId)
             {
                 return BadRequest();
             }
-
             try
             {
-
+                productRepository.UpdateProduct(product);
             }
             catch (Exception e)
             {
-                productDbContext.Products.Update(product);
-                productDbContext.SaveChanges(true);
-
-                Console.WriteLine("erro: ", e);
-                return NotFound("Erro... ");
+                Console.WriteLine(e);
+                return NotFound("No Record Found against this Id...");
             }
-
-
-            return Ok("Product Updated");
+            return Ok("Product Updated...");
         }
-
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            Product product = productDbContext.Products.SingleOrDefault(p => p.ProductId == id);
-
-            if (product == null)
-            {
-                return NotFound("No Record Found...");
-            }
-
-            productDbContext.Products.Remove(product);
-            productDbContext.SaveChanges(true);
-
-            return Ok("Product Deleted..");
+            productRepository.DeleteProduct(id);
+            return Ok("Product Deleted...");
         }
     }
 }

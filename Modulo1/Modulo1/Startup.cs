@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Modulo1.Data;
+using Modulo1.Services;
 
 namespace Modulo1
 {
@@ -29,6 +30,7 @@ namespace Modulo1
         {
             services.AddControllers().AddXmlDataContractSerializerFormatters();
             services.AddDbContext<ProductDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProductsDb;"));
+            services.AddScoped<IProduct, ProductRepository>();
             
         }
 
