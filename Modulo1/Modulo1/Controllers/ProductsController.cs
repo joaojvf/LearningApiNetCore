@@ -40,6 +40,24 @@ namespace Modulo1.Controllers
             return products;
         }
 
+        [HttpGet("GetPag")]
+        public IEnumerable<Product> GetPage(int pageNumber, int pageSize)
+        {
+            IEnumerable<Product> products = productDbContext.Products.OrderBy(p => p.ProductId);
+
+            var items = products.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+
+            return items;
+        }
+
+        [HttpGet("GetSearch")]
+        public IEnumerable<Product> GetSearch(string nameProduct)
+        {
+            IEnumerable<Product> products = productDbContext.Products.Where(p => p.ProductName.StartsWith(nameProduct));
+
+            return products;
+        }
+
         // GET: api/Products/5
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
