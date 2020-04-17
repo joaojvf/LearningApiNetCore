@@ -28,27 +28,79 @@ namespace Modulo1.Controllers
 
         // GET: api/Products/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            Product product = productDbContext.Products.SingleOrDefault(p => p.ProductId == id);
+
+            if (product == null)
+            {
+                return NotFound("No Record Found...");
+            }
+
+            return Ok(product);
         }
 
         // POST: api/Products
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] Product product)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            productDbContext.Products.Add(product);
+            productDbContext.SaveChanges(true);
+
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         // PUT: api/Products/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Product product)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (id != product.ProductId)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+
+            }
+            catch (Exception e)
+            {
+                productDbContext.Products.Update(product);
+                productDbContext.SaveChanges(true);
+
+                Console.WriteLine("erro: ", e);
+                return NotFound("Erro... ");
+            }
+
+
+            return Ok("Product Updated");
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            Product product = productDbContext.Products.SingleOrDefault(p => p.ProductId == id);
+
+            if (product == null)
+            {
+                return NotFound("No Record Found...");
+            }
+
+            productDbContext.Products.Remove(product);
+            productDbContext.SaveChanges(true);
+
+            return Ok("Product Deleted..");
         }
     }
 }
