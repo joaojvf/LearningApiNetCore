@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Modulo1.Data;
 
 namespace Modulo1
 {
@@ -26,11 +28,12 @@ namespace Modulo1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddXmlDataContractSerializerFormatters();
+            services.AddDbContext<ProductDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProductsDb;"));
             
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ProductDbContext productDbContext)
         {
             if (env.IsDevelopment())
             {
@@ -47,6 +50,8 @@ namespace Modulo1
             {
                 endpoints.MapControllers();
             });
+
+            productDbContext.Database.EnsureCreated();
         }
     }
 }
