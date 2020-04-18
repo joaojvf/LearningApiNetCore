@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Modulo1.Data;
 using Modulo1.Services;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Modulo1
 {
@@ -31,7 +32,14 @@ namespace Modulo1
             services.AddControllers().AddXmlDataContractSerializerFormatters();
             services.AddDbContext<ProductDbContext>(option => option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ProductsDb;"));
             services.AddScoped<IProduct, ProductRepository>();
-            
+
+            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo()
+            {
+                Title = "Example of Document",
+                Version = "v1"
+            }
+            ));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +60,9 @@ namespace Modulo1
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api for Products"));
 
             productDbContext.Database.EnsureCreated();
         }
