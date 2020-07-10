@@ -29,5 +29,12 @@ namespace Calculations.Tests
                 calc.FiboNumbers, n => Assert.NotEqual(0, n));
         }
 
+        [Fact]
+        public void FiboContais1()
+        {
+            var calc = new Calculator();
+            Assert.Contains(1, calc.FiboNumbers);
+        }
+
     }
 }
