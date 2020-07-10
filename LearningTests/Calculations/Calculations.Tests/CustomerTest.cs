@@ -30,5 +30,12 @@ namespace Calculations.Tests
             Assert.Throws<ArgumentException>(
                 () => customer.GetOrdersByName(""));
         }
+
+        [Fact]
+        public void LoyalCustomerForOrderG100()
+        {
+            var customer = CustomerFactory.CreateCustomer(101);
+            Assert.IsType(typeof(LoayalCustomer), customer);
+        }
     }
 }

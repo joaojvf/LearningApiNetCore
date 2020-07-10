@@ -9,7 +9,7 @@ namespace Calculations
         public string Name => "Joao";
         public int Age => 23;
 
-        public int GetOrdersByName(string name)
+        public virtual int GetOrdersByName(string name)
         {
             if (string.IsNullOrEmpty(name))
             {
@@ -17,6 +17,31 @@ namespace Calculations
             }
 
             return 100;
+        }
+    }
+
+    public class LoayalCustomer : Customer
+    {
+        public int Discount { get; set; }
+        public LoayalCustomer()
+        {
+            Discount = 10;
+        }
+
+        public override int GetOrdersByName(string name)
+        {
+            return 101;
+        }
+    }
+
+    public static class CustomerFactory
+    {
+        public static Customer CreateCustomer(int orderCount)
+        {
+            if (orderCount <= 100)
+                return new Customer();
+            else
+                return new LoayalCustomer();
         }
     }
 }

@@ -1,11 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using Xunit;
+using Xunit.Abstractions;
+
 namespace Calculations.Tests
 {
-    public class CalculatorTests
+    public class CalculatorFixture
     {
+        public Calculator Calc => new Calculator();
+    }
+
+    public class CalculatorTests : IClassFixture<CalculatorFixture>
+    {
+        private readonly CalculatorFixture _calculatorFixture;
+        private readonly ITestOutputHelper _testOutpupHelper;
+        private readonly MemoryStream memoryStream;
+        public CalculatorTests(ITestOutputHelper testOutpupHelper, CalculatorFixture calculatorFixture)
+        {
+            _testOutpupHelper = testOutpupHelper;
+            this._calculatorFixture = calculatorFixture;
+            _testOutpupHelper.WriteLine("Construtor");
+
+            memoryStream = new MemoryStream();
+
+        }
         [Fact]
         public void TestAdd()
         {
@@ -15,8 +35,7 @@ namespace Calculations.Tests
         [Fact]
         public void Add_GivenTwoValues_ReturnsInt()
         {
-            var calc = new Calculator();
-            var result = calc.Add(1, 2);
+            var result = _calculatorFixture.Calc.Add(1, 2);
 
             Assert.Equal(3, result);
         }
@@ -24,16 +43,14 @@ namespace Calculations.Tests
         [Fact]
         public void testColetion()
         {
-            var calc = new Calculator();
             Assert.All(
-                calc.FiboNumbers, n => Assert.NotEqual(0, n));
+                _calculatorFixture.Calc.FiboNumbers, n => Assert.NotEqual(0, n));
         }
 
         [Fact]
         public void FiboContais1()
         {
-            var calc = new Calculator();
-            Assert.Contains(1, calc.FiboNumbers);
+            Assert.Contains(1, _calculatorFixture.Calc.FiboNumbers);
         }
 
     }
