@@ -54,8 +54,7 @@ namespace Calculations.Tests
         }
 
         [Theory]
-        [InlineData(1, true)]
-        [InlineData(200, false)]
+        [MemberData(nameof(TestDataShare.IsOddOrEventData), MemberType = typeof(TestDataShare))]
         public void IsOdd_TestOddAndEven(int value, bool expected)
         {
             var res = _calculatorFixture.Calc.IsOdd(value);
