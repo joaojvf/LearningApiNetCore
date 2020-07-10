@@ -53,5 +53,14 @@ namespace Calculations.Tests
             Assert.Contains(1, _calculatorFixture.Calc.FiboNumbers);
         }
 
+        [Theory]
+        [InlineData(1, true)]
+        [InlineData(200, false)]
+        public void IsOdd_TestOddAndEven(int value, bool expected)
+        {
+            var res = _calculatorFixture.Calc.IsOdd(value);
+            Assert.Equal(expected, res);
+        }
+
     }
 }
