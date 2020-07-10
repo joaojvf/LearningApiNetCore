@@ -11,5 +11,23 @@ namespace Calculations.Tests
         {
             Assert.True(true);
         }
+
+        [Fact]
+        public void Add_GivenTwoValues_ReturnsInt()
+        {
+            var calc = new Calculator();
+            var result = calc.Add(1, 2);
+
+            Assert.Equal(3, result);
+        }
+
+        [Fact]
+        public void testColetion()
+        {
+            var calc = new Calculator();
+            Assert.All(
+                calc.FiboNumbers, n => Assert.NotEqual(0, n));
+        }
+
     }
 }
