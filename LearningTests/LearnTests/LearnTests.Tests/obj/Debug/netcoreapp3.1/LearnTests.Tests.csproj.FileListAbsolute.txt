@@ -96,3 +96,5 @@ C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\n
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.csproj.CoreCompileInputs.cache
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.dll
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb

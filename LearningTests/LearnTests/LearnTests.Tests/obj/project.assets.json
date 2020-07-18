@@ -1809,6 +1809,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "LearnTests.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        }
       }
     }
   },
@@ -6147,10 +6157,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "LearnTests.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LearnTests.Domain/LearnTests.Domain.csproj",
+      "msbuildProject": "../LearnTests.Domain/LearnTests.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LearnTests.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
       "coverlet.collector >= 1.2.0",
@@ -6183,7 +6199,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj": {
+              "projectPath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
