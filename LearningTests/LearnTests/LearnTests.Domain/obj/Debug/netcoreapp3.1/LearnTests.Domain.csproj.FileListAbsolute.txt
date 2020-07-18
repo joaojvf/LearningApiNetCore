@@ -1,0 +1,9 @@
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.deps.json
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.pdb
