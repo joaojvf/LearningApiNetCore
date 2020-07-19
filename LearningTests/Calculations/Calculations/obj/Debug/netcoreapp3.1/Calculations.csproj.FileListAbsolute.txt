@@ -11,3 +11,15 @@ C:\repo\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\net
 C:\repo\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.dll
 C:\repo\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.pdb
 C:\repo\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.genruntimeconfig.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.exe
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.deps.json
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.runtimeconfig.json
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.runtimeconfig.dev.json
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\bin\Debug\netcoreapp3.1\Calculations.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.AssemblyInfoInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.AssemblyInfo.cs
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.csproj.CoreCompileInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations\obj\Debug\netcoreapp3.1\Calculations.genruntimeconfig.cache

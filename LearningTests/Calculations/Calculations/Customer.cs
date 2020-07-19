@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Calculations
 {
-    public class Customer
+    public class Customer: IDisposable
     {
         public string Name => "Joao";
         public int Age => 23;
@@ -18,6 +16,35 @@ namespace Calculations
 
             return 100;
         }
+
+        #region [Disposable]        
+        private bool disposedValue;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposedValue)
+                return;
+
+            if (disposing)
+            {
+
+            }
+
+            disposedValue = true;
+        }
+
+        ~Customer()
+        {
+            Dispose(disposing: false);
+        }
+
+        public void Dispose()
+        {
+            Dispose(disposing: true);
+            GC.SuppressFinalize(this);
+        }
+
+        #endregion [Disposable]
     }
 
     public class LoayalCustomer : Customer

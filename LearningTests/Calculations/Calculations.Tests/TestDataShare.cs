@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Calculations.Tests
+namespace Calculations.UnitTests
 {
     public class TestDataShare
     {
@@ -11,7 +9,6 @@ namespace Calculations.Tests
             {
                 yield return new object[] { 1, true };
                 yield return new object[] { 200, false};
-
             }
         }
 }

@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations", "Calculations\Calculations.csproj", "{E2223766-1886-4A43-8B73-D838767B46E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "Calculations\Calculations.csproj", "{E2223766-1886-4A43-8B73-D838767B46E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculations.Tests", "Calculations.Tests\Calculations.Tests.csproj", "{F30E6772-B352-4821-A66F-EAA1AB2880CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.UnitTests", "Calculations.Tests\Calculations.UnitTests.csproj", "{F30E6772-B352-4821-A66F-EAA1AB2880CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDB2AAC0-CAD1-4E80-9EE2-A0E37EADF205}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

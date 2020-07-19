@@ -1,0 +1,4 @@
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations.Tests\obj\Debug\netcoreapp3.1\Calculations.UnitTests.csprojAssemblyReference.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations.Tests\obj\Debug\netcoreapp3.1\Calculations.UnitTests.AssemblyInfoInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations.Tests\obj\Debug\netcoreapp3.1\Calculations.UnitTests.AssemblyInfo.cs
+D:\desenv\github\LearningApiNetCore\LearningTests\Calculations\Calculations.Tests\obj\Debug\netcoreapp3.1\Calculations.UnitTests.csproj.CoreCompileInputs.cache
