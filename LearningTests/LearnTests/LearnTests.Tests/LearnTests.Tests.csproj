@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LearnTests.API\LearnTests.API.csproj" />
     <ProjectReference Include="..\LearnTests.Domain\LearnTests.Domain.csproj" />
+    <ProjectReference Include="..\LearnTests.Infra.Data\LearnTests.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

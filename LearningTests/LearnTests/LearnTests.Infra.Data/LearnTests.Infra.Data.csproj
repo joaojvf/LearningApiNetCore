@@ -7,7 +7,10 @@
   <ItemGroup>
     <Folder Include="Config\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LearnTests.Domain\LearnTests.Domain.csproj" />
   </ItemGroup>
 
 </Project>

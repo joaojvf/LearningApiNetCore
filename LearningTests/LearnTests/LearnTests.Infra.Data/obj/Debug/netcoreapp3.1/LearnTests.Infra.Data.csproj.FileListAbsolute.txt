@@ -7,3 +7,6 @@ C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\De
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.AssemblyInfo.cs
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.csproj.CopyComplete

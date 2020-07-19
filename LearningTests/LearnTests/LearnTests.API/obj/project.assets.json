@@ -1797,6 +1797,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "LearnTests.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        }
+      },
+      "LearnTests.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LearnTests.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LearnTests.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnTests.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -6063,10 +6086,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "LearnTests.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LearnTests.Domain/LearnTests.Domain.csproj",
+      "msbuildProject": "../LearnTests.Domain/LearnTests.Domain.csproj"
+    },
+    "LearnTests.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../LearnTests.Infra.Data/LearnTests.Infra.Data.csproj",
+      "msbuildProject": "../LearnTests.Infra.Data/LearnTests.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LearnTests.Domain >= 1.0.0",
+      "LearnTests.Infra.Data >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3"
     ]
   },
@@ -6095,7 +6130,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj": {
+              "projectPath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj"
+            },
+            "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Infra.Data\\LearnTests.Infra.Data.csproj": {
+              "projectPath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Infra.Data\\LearnTests.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

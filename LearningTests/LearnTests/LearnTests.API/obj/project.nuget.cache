@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZdLr8VPeMqofNHj8+Re8V99hjzwHgbAzB1HMilObLAHxPMbqIf+u5tMRZ0Fi5TB5Za2rgQC525CvyrtM23nGiA==",
+  "dgSpecHash": "DfG94tJ8Tu/gpSdePlAG6LNO3xwsQEmX09OR1V1vwRuuu8uGBFy2FCujR9rw+h0Ev1yyp2BXfrlrg7hTmXD5zw==",
   "success": true,
   "projectFilePath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.API\\LearnTests.API.csproj",
   "expectedPackageFiles": [
