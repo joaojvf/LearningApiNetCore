@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LearnTests.CrossCutting.IoC\LearnTests.CrossCutting.IoC.csproj" />
     <ProjectReference Include="..\LearnTests.Domain\LearnTests.Domain.csproj" />
-    <ProjectReference Include="..\LearnTests.Infra.Data\LearnTests.Infra.Data.csproj" />
   </ItemGroup>
 
 

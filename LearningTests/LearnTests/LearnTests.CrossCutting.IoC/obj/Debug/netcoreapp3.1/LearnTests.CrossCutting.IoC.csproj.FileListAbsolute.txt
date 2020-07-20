@@ -1,0 +1,14 @@
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.deps.json
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csprojAssemblyReference.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.AssemblyInfoInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.AssemblyInfo.cs
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csproj.CopyComplete
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb

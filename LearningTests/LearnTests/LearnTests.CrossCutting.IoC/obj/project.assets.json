@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "LearnTests.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnTests.Domain.dll": {}
+        }
+      },
+      "LearnTests.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LearnTests.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6"
+        },
+        "compile": {
+          "bin/placeholder/LearnTests.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearnTests.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.6": {
+      "sha512": "JVlypPjlPqOEyAhET6pA7TqrK+Ya8TrYe2vvqsp62TYKS87oNuReoS7XpDFW0rrOsQo66G1yYf3K0E+lJHFHuw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "LearnTests.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LearnTests.Domain/LearnTests.Domain.csproj",
+      "msbuildProject": "../LearnTests.Domain/LearnTests.Domain.csproj"
+    },
+    "LearnTests.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../LearnTests.Infra.Data/LearnTests.Infra.Data.csproj",
+      "msbuildProject": "../LearnTests.Infra.Data/LearnTests.Infra.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LearnTests.Domain >= 1.0.0",
+      "LearnTests.Infra.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\caio_\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.CrossCutting.IoC\\LearnTests.CrossCutting.IoC.csproj",
+      "projectName": "LearnTests.CrossCutting.IoC",
+      "projectPath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.CrossCutting.IoC\\LearnTests.CrossCutting.IoC.csproj",
+      "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+      "outputPath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.CrossCutting.IoC\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj": {
+              "projectPath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj"
+            },
+            "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Infra.Data\\LearnTests.Infra.Data.csproj": {
+              "projectPath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Infra.Data\\LearnTests.Infra.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

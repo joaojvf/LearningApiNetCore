@@ -44,7 +44,7 @@ namespace Calculations.UnitTests.Mocks
                 .Callback((Person person) => _people.Add(person));
 
             _fakePeopleRepository
-                .Setup(pr => pr.Remove(It.IsAny<Person>()))
+                .Setup(pr => pr.Remove(It.IsAny<Person>()))                
                 .Returns((Person person) => _people.Remove(person));
 
             _fakePeopleRepository

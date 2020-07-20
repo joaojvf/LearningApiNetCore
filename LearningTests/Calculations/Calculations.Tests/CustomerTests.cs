@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using FluentAssertions.Execution;
 using System;
 using Xunit;
 
@@ -38,9 +39,12 @@ namespace Calculations.UnitTests
 
             var message = "Value does not fall within the expected range.";
 
-            actEmpty.Should().Throw<ArgumentException>("Name cannot be empty").WithMessage(message);
-            actNull.Should().Throw<ArgumentException>("Name cannot be null").WithMessage(message);
-            actDefault.Should().Throw<ArgumentException>("Name cannot be default").WithMessage(message);
+            using (new AssertionScope())
+            {
+                actEmpty.Should().Throw<ArgumentException>("Name cannot be empty").WithMessage(message);
+                actNull.Should().Throw<ArgumentException>("Name cannot be null").WithMessage(message);
+                actDefault.Should().Throw<ArgumentException>("Name cannot be default").WithMessage(message);
+            }
         }
 
         [Trait(@"Method", @"Calculations.Customer.GetOrdersByName")]

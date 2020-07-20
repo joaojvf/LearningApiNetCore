@@ -7,3 +7,12 @@ C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.AssemblyInfo.cs
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.dll
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.deps.json
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.csprojAssemblyReference.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.AssemblyInfoInputs.cache
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.AssemblyInfo.cs
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.dll
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Domain\obj\Debug\netcoreapp3.1\LearnTests.Domain.csproj.CoreCompileInputs.cache
