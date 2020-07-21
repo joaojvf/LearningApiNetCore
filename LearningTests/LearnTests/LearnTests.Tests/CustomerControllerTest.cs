@@ -16,7 +16,12 @@ namespace LearnTests.Tests
 
         public CustomerControllerTest()
         {
-            _customerController = new CustomerController(new CustomerRepository());
+            var fakeCustomerRepository = new Mock<ICustomerRepository>();
+
+            fakeCustomerRepository.Setup(cr => cr.GetCustomer())
+                .Returns(new Customer { Name = "customer get", Age = 34 });
+
+            _customerController = new CustomerController(fakeCustomerRepository.Object);
         }
 
         [Fact]

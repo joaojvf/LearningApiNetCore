@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kSzGOhLmj+Iw5H8x3AaJ4sVrME2GFUystAZJxEK6GKiE95akF6N6NsxH9YeMcwvGndt4QCI0VoSgZqKmrYOeQg==",
+  "dgSpecHash": "xPFVnqId/pGUP2kYa31bbsZj3A6tN9rsj7YjbM+gE/1lH88/Jtm6z8Uz8bmb+XI18afk8fqiwwoENn4ktwnKVw==",
   "success": true,
-  "projectFilePath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.Domain\\LearnTests.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512"
+  ],
   "logs": []
 }

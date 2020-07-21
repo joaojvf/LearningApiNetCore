@@ -46,7 +46,6 @@ namespace Calculations.UnitTests
                 person.Age.Should()
                     .BeGreaterThan(-1)
                     .And.Be(0);
-
             }
         }
 
@@ -137,7 +136,6 @@ namespace Calculations.UnitTests
                 person.Age.Should()
                     .BeGreaterThan(-1)
                     .And.Be(10);
-
             }
         }
 

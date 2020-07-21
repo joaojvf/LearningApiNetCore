@@ -1,12 +1,8 @@
 ﻿using FluentAssertions;
 using FluentAssertions.Execution;
 using System;
-using Xunit;
-using Moq;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
+using Xunit;
 
 namespace Calculations.UnitTests
 {
@@ -30,8 +26,9 @@ namespace Calculations.UnitTests
 
             var initialCount = _fakePeopleRepository.Count;
             _peopleApplication.Add(newPerson);
+
             using (new AssertionScope())
-            {
+            {                
                 _fakePeopleRepository.Count
                     .Should()
                     .BeGreaterThan(initialCount);

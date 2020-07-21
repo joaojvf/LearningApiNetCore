@@ -37,7 +37,7 @@ namespace Calculations.UnitTests
         public void Add_GivenTwoValues_ReturnsInt(int number1, int number2, int expected)
         {
             var result = _calculatorFixture.Calc.Add(number1, number2);
-            result.Should().Be(expected, "");
+            result.Should().Be(expected);
         }
 
         [Trait(@"Property", @"Calculations.Calculator.FiboNumbers")]

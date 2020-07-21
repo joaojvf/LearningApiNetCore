@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCuttin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{88BA8BA7-9D0B-4211-A726-6BD91512D40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTests.API", "LearnTests.API\LearnTests.API.csproj", "{63F86E5E-AB60-430A-A627-EC58540705A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTests.API", "LearnTests.API\LearnTests.API.csproj", "{63F86E5E-AB60-430A-A627-EC58540705A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTests.Infra.Data", "LearnTests.Infra.Data\LearnTests.Infra.Data.csproj", "{4D028B3A-4CDC-4F0D-8E8B-0815ABD9C4FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTests.Infra.Data", "LearnTests.Infra.Data\LearnTests.Infra.Data.csproj", "{4D028B3A-4CDC-4F0D-8E8B-0815ABD9C4FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTests.Domain", "LearnTests.Domain\LearnTests.Domain.csproj", "{C139A6F5-DC64-4926-A490-98CD3392F47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTests.Domain", "LearnTests.Domain\LearnTests.Domain.csproj", "{C139A6F5-DC64-4926-A490-98CD3392F47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTests.Tests", "LearnTests.Tests\LearnTests.Tests.csproj", "{E1F2DEB3-1D44-45D1-B911-AF883D006B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTests.Tests", "LearnTests.Tests\LearnTests.Tests.csproj", "{E1F2DEB3-1D44-45D1-B911-AF883D006B75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{B28864F9-483F-46DC-9F22-4656C39ED4B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTests.CrossCutting.IoC", "LearnTests.CrossCutting.IoC\LearnTests.CrossCutting.IoC.csproj", "{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,10 @@ Global
 		{E1F2DEB3-1D44-45D1-B911-AF883D006B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F2DEB3-1D44-45D1-B911-AF883D006B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F2DEB3-1D44-45D1-B911-AF883D006B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,8 @@ Global
 		{4D028B3A-4CDC-4F0D-8E8B-0815ABD9C4FD} = {88BA8BA7-9D0B-4211-A726-6BD91512D40D}
 		{C139A6F5-DC64-4926-A490-98CD3392F47A} = {3596C68F-1111-401A-AA3A-11C7541A2E62}
 		{E1F2DEB3-1D44-45D1-B911-AF883D006B75} = {3D9C0121-F383-41BF-94CE-75BBE0764A9D}
+		{B28864F9-483F-46DC-9F22-4656C39ED4B4} = {B0FD8EE3-61D9-4E84-A863-DBD3011CD31D}
+		{1B7E0CF7-D22C-457E-B9DA-8E27AFC80EEA} = {B28864F9-483F-46DC-9F22-4656C39ED4B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C768FFC3-1CDC-4810-883E-EFAF8E36A673}

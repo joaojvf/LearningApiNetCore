@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LearnTests.Infra.Data.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    internal class CustomerRepository : ICustomerRepository
     {
         public Customer GetCustomer()
         {
