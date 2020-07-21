@@ -19,25 +19,25 @@ namespace LearnTests.Tests
         }
 
         [Fact]
-        public void checkNameNotEmpty()
+        public void CheckNameNotEmpty()
         {
             Assert.False(string.IsNullOrEmpty(_customer.Name));
         }
 
         [Fact]
-        public void checkTypeOfName()
+        public void CheckTypeOfName()
         {
             Assert.IsType<string>(_customer.Name);
         }
 
         [Fact]
-        public void checkAge()
+        public void CheckAge()
         {
             Assert.InRange(_customer.Age, 18, 60);
         }
 
         [Fact]
-        public void checkAgeInCollection()
+        public void CheckAgeInCollection()
         {
             List<Customer> customers = new List<Customer>()
             {

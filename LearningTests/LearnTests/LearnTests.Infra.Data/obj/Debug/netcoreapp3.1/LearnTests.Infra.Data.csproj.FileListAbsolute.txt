@@ -2,7 +2,6 @@ C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\bin\De
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.pdb
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.csprojAssemblyReference.cache
-C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.csproj.CoreCompileInputs.cache
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.AssemblyInfoInputs.cache
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.AssemblyInfo.cs
 C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
@@ -22,3 +21,4 @@ D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Da
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.pdb
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Infra.Data\obj\Debug\netcoreapp3.1\LearnTests.Infra.Data.csproj.CoreCompileInputs.cache

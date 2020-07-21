@@ -359,3 +359,10 @@ D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\ob
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.dll
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.pdb
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\obj\Debug\netcoreapp3.1\LearnTests.Tests.genruntimeconfig.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\FluentAssertions.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.Tests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

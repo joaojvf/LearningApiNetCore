@@ -1,4 +1,5 @@
-﻿using LearnTests.API.Controllers;
+﻿using FluentAssertions;
+using LearnTests.API.Controllers;
 using LearnTests.Domain.Entities;
 using LearnTests.Domain.Interfaces.Repositories;
 using LearnTests.Infra.Data.Repositories;
@@ -24,11 +25,12 @@ namespace LearnTests.Tests
             _customerController = new CustomerController(fakeCustomerRepository.Object);
         }
 
-        [Fact]
-        public void getCustomerWithRepository()
+        [Fact(DisplayName = "Check name returned of repository.")]
+        public void GetCustomerWithRepository()
         {
             var result = _customerController.Get();
-            Assert.Equal("customer get", result.Value.Name, ignoreCase: true);
+            result.Value.Name.Should().BeEquivalentTo("Customer get", "");
         }
+
     }
 }

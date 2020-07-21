@@ -12,3 +12,17 @@ D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCut
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csproj.CopyComplete
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
 D:\desenv\github\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.deps.json
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Domain.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Domain.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\bin\Debug\netcoreapp3.1\LearnTests.Infra.Data.pdb
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.AssemblyInfo.cs
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.csproj.CopyComplete
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.dll
+C:\repo\LearningApiNetCore\LearningTests\LearnTests\LearnTests.CrossCutting.IoC\obj\Debug\netcoreapp3.1\LearnTests.CrossCutting.IoC.pdb

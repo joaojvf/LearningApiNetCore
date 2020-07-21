@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EIz6cBrUVEX3I4WqiAcPMWGgk/8d0CytG83TZv5CpB1+cje/VG8dn18nTvz/B9TErSiUQPx4Vt9bj1tOa1PcwQ==",
+  "dgSpecHash": "7s6NO4gBxNy2mI44QylT0AKO0mnEsbBvd7Z+SAtMyosRnv8IjcHCCe5B5LRBgAPZAxphoFhkYS/eH9WNOh8lRg==",
   "success": true,
-  "projectFilePath": "D:\\desenv\\github\\LearningApiNetCore\\LearningTests\\Calculations\\Calculations\\Calculations.csproj",
+  "projectFilePath": "C:\\repo\\LearningApiNetCore\\LearningTests\\Calculations\\Calculations\\Calculations.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
