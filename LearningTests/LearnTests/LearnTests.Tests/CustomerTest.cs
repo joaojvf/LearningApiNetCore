@@ -1,5 +1,7 @@
-﻿using LearnTests.Domain.Entities;
+﻿using FluentAssertions;
+using LearnTests.Domain.Entities;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
@@ -39,6 +41,12 @@ namespace LearnTests.Tests
         [Fact]
         public void checkAgeInCollection()
         {
+            List<int> collection = new List<int> { 1, 2, 5, 8 };
+
+            collection.Should().Contain(x => x > 1 && x < 10 );
+
+
+
             List<Customer> customers = new List<Customer>()
             {
                 _customer,
