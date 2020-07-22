@@ -34,7 +34,7 @@ namespace LearnTests.Tests
         public void GetCustomerWithRepository()
         {
             var result = _customerController.Get();
-            result.Value.Name.Should().BeEquivalentTo("Customer get", "");
+            result.Value.Name.Should().BeEquivalentTo("Customer get");
         }
 
         [Fact(DisplayName = "Check return if bad request or new customer from post")]
@@ -49,7 +49,7 @@ namespace LearnTests.Tests
 
             using (new AssertionScope())
             {
-                responseValid.Value.Should().BeOfType(typeof(Customer), "");
+                responseValid.Value.Should().BeOfType<Customer>();
                 result.StatusCode.Should().Be(400);
             }
         }

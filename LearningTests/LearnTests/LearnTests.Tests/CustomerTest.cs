@@ -34,7 +34,7 @@ namespace LearnTests.Tests
             Assert.IsType<string>(_customer.Name);
         }
 
-        [Fact]
+        [Fact(DisplayName ="Check a interval of age.")]
         public void CheckAge()
         {
             Assert.InRange(_customer.Age, 18, 60);
@@ -58,8 +58,7 @@ namespace LearnTests.Tests
                 },
             };
 
-            Assert.All(customers, 
-                c => Assert.InRange(c.Age, 18, 60));
+            customers.Should().Contain(c => c.Age >= 18 && c.Age < 60);
         }
 
         [Trait(@"Property", @"Customer.CreateCustomer")]

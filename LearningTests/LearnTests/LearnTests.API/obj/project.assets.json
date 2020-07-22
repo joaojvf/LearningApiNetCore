@@ -6267,7 +6267,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joaov\\.nuget\\packages\\": {}
+    "C:\\Users\\joao.ferreira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6275,11 +6275,11 @@
       "projectUniqueName": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.API\\LearnTests.API.csproj",
       "projectName": "LearnTests.API",
       "projectPath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.API\\LearnTests.API.csproj",
-      "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\joao.ferreira\\.nuget\\packages\\",
       "outputPath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joaov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joao.ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6333,7 +6333,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

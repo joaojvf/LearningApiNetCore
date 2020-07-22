@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bNN28hT0y0iKZ9tRl1kGd2xUp2EP1Pv4zJ8hKL/c55ND7qhcJWi/WR2LYnpBK4W+lUebBsev9zLHhqle33/mXw==",
+  "dgSpecHash": "chgm3ky/uyGY8/T+Q+B4Va9LAAfrC0mbZQTnjTrdt/2VHTocqcZl52/m2DTwph9TP27Kv7ux47Q+QSRNqiv5cw==",
   "success": true,
   "projectFilePath": "C:\\repo\\LearningApiNetCore\\LearningTests\\LearnTests\\LearnTests.CrossCutting.IoC\\LearnTests.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joaov\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    "C:\\Users\\joao.ferreira\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\joao.ferreira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\joao.ferreira\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\joao.ferreira\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
