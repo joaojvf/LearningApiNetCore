@@ -1,9 +1,0 @@
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\bin\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.deps.json
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\bin\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\bin\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.csprojAssemblyReference.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.AssemblyInfoInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.AssemblyInfo.cs
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.pdb
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Infra.CrossCutting.Logging\obj\Debug\netcoreapp2.1\EntityFramework.Infra.CrossCutting.Logging.csproj.CoreCompileInputs.cache

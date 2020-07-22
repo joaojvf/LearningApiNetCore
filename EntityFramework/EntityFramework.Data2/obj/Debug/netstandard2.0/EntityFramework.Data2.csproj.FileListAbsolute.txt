@@ -1,6 +1,0 @@
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\bin\Debug\netstandard2.0\EntityFramework.Data2.deps.json
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\bin\Debug\netstandard2.0\EntityFramework.Data2.dll
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\obj\Debug\netstandard2.0\EntityFramework.Data2.csprojAssemblyReference.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\obj\Debug\netstandard2.0\EntityFramework.Data2.AssemblyInfoInputs.cache
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\obj\Debug\netstandard2.0\EntityFramework.Data2.AssemblyInfo.cs
-C:\repo\LearningApiNetCore\EntityFramework\EntityFramework.Data2\obj\Debug\netstandard2.0\EntityFramework.Data2.csproj.CoreCompileInputs.cache
