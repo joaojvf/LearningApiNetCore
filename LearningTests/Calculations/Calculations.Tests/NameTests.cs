@@ -12,7 +12,7 @@ namespace Calculations.UnitTests
         {
             var names = new Names();
             var res = names.MakeFullName("Joao", "Ferreira");
-            Assert.Equal("joao Ferreira", res, ignoreCase: true);
+            res.Should().BeEquivalentTo("joao ferreira");
         }
 
         [Fact]

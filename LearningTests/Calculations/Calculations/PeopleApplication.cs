@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Calculations
 {
@@ -26,7 +27,7 @@ namespace Calculations
 
         public ICollection<Person> ListByAgeGreaterOrEqual(int age) => _peopleRepository.ListByAgeGreaterOrEqual(age);
 
-        public ICollection<Person> ListByAgeLessOrEqual(int age) => _peopleRepository.ListByAgeLessOrEqual(age);
+        public async Task<ICollection<Person>> ListByAgeLessOrEqual(int age) => await _peopleRepository.ListByAgeLessOrEqual(age);
 
         public bool Remove(Person person) => _peopleRepository.Remove(person);
 
@@ -63,7 +64,7 @@ namespace Calculations
 
         ICollection<Person> ListByAgeGreaterOrEqual(int age);
 
-        ICollection<Person> ListByAgeLessOrEqual(int age);
+        Task<ICollection<Person>> ListByAgeLessOrEqual(int age);
 
         Person GetById(Guid id);
     }

@@ -44,7 +44,7 @@ namespace Calculations.UnitTests.Mocks
                 .Callback((Person person) => _people.Add(person));
 
             _fakePeopleRepository
-                .Setup(pr => pr.Remove(It.IsAny<Person>()))                
+                .Setup(pr => pr.Remove(It.IsAny<Person>()))
                 .Returns((Person person) => _people.Remove(person));
 
             _fakePeopleRepository
@@ -57,7 +57,7 @@ namespace Calculations.UnitTests.Mocks
 
             _fakePeopleRepository
                 .Setup(pr => pr.ListByAgeLessOrEqual(It.IsAny<int>()))
-                .Returns((int age) => _people.Where(p => p.Age <= age).ToList());
+                .ReturnsAsync((int age) => _people.Where(p => p.Age <= age).ToList());
 
             _fakePeopleRepository
                 .Setup(pr => pr.GetById(It.IsAny<Guid>()))

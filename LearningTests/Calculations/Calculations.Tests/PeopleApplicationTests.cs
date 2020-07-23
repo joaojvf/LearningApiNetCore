@@ -156,9 +156,9 @@ namespace Calculations.UnitTests
         [InlineData(19, 3)]
         [InlineData(30, 4)]
         [InlineData(33, 4)]
-        public void PeopleApplication_ListByAgeLessOrEqual(int age, int count)
+        public async void PeopleApplication_ListByAgeLessOrEqual(int age, int count)
         {
-            var result = _peopleApplication.ListByAgeLessOrEqual(age);
+            var result = await _peopleApplication.ListByAgeLessOrEqual(age);
 
             result.Should()
                 .NotBeNull()
