@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
+using Xunit.Extensions;
 
 namespace LearnTests.Tests
 {
@@ -32,21 +33,15 @@ namespace LearnTests.Tests
             Assert.IsType<string>(_customer.Name);
         }
 
-        [Fact]
-        public void checkAge()
+        [Fact(DisplayName = "Check a interval of age.")]
+        public void CheckAge()
         {
             Assert.InRange(_customer.Age, 18, 60);
         }
 
-        [Fact]
-        public void checkAgeInCollection()
+        [Fact(DisplayName = "validates a Collection if age is between 18 and 60 and return true.")]
+        public void CreateCollection_CheckRangeOfAge_ReturnTrue()
         {
-            List<int> collection = new List<int> { 1, 2, 5, 8 };
-
-            collection.Should().Contain(x => x > 1 && x < 10 );
-
-
-
             List<Customer> customers = new List<Customer>()
             {
                 _customer,
@@ -62,8 +57,7 @@ namespace LearnTests.Tests
                 },
             };
 
-            Assert.All(customers, 
-                c => Assert.InRange(c.Age, 18, 60));
+            customers.Should().Contain(c => c.Age >= 18 && c.Age <= 60);
         }
     }
 }
